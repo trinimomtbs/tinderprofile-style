@@ -1,0 +1,135 @@
+.tinder-profile {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  font-family: Nimbus-Sans-Extended, Helvetica, sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+.tinder-profile img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profile-info {
+  text-align: left;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+  padding: 5px 5px 5px 15px;
+}
+
+.profile-info .age {
+  font-size: 16px;
+  color: #999;
+  margin-left: 5px;
+}
+
+.profile-meta {
+  padding-top: 5px;
+}
+
+.meta-row {
+  display: flex;
+  align-items: center;
+  padding: 2px 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.meta-row .material-icons-outlined {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.meta-text {
+  line-height: 1.4;
+}
+
+.section-divider {
+  height: 1px;
+  background-color: #eaeaea;
+  margin: 15px 0;
+  width: 100%;
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+  padding: 0 15px;
+text-align: justify;
+}
+
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding: 0 15px 15px;
+}
+
+.interests span {
+  background: #f1f1f1;
+  color: #333;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  background: #f7f7f7;
+  border-top: 1px solid #eee;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  transition: transform 0.3s ease;
+}
+
+.icon-circle:hover {
+  transform: scale(1.1);
+}
+
+.icon-circle span {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.red {
+  background: linear-gradient(135deg, #fe7b8b, #fe516d);
+}
+
+.blue {
+  background: linear-gradient(135deg, #6fcaff, #3eafff);
+}
+
+.green {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+.yellow {
+  background: linear-gradient(45deg, #fcca6e, #ffdf9e);
+}
